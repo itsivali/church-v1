@@ -3688,6 +3688,26 @@ text-transform: uppercase;
 	border: none;
 }
 
+#bankDetails,
+    .wpcf7-submit,
+    .white-btn,
+    .page-links a,
+    .post-password-form input[type="submit"],
+    .menu-item button {
+        font-size: 12px; /* Adjusted font size to be one size smaller */
+        font-weight: 600;
+        color: #fff;
+        background: #151515;
+        letter-spacing: 0.03em;
+        padding: 6px 12px; /* Adjusted padding to be smaller */
+        border-radius: 99em;
+        display: inline-block;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
+
 .read-more:hover,
 #submit:hover,
 .wpcf7-submit:hover,
